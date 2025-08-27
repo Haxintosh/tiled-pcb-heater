@@ -45,10 +45,10 @@ Laid out the traces for the voltage regulators. The 5V and 12V rails are convert
 Time: 1.5h
 Placed the MCU in the middle of the board, with the sensitive analog pins facing towards to bottom of the board and away from the switching regulators. Then the decoupling capacitors were placed along side the crystal oscillator. I then placed the 2 LDOs regulating the 3V3 rails quite close to the STM32 since there weren't many places left for them. I then connected the PWM control signals for the MOSFETs. I originally thought that the PWM traces from the MCU will cause a good amount of noise, but apparently Klipper uses a 10Hz signal to control the heaters. 
 
-# 2025-08-20 Log 10: Thermistor & DRC
+# 2025-08-20 Log 11: Thermistor & DRC
 Time: 2h 
 Routed the thermistor sensing section on the PCB and replicated the layout for the other 7 channels. Then routed from the MCU to the channels. I've also placed the SWD connector for debugging and for flashing just in case the USB flashing fails. I've also added a test hook for oscilloscope ground for probing purpose. I've also added some M2 screw mount holes on the 4 corners of the PCB and silkscreen labels for the different inputs and LEDs. I finished by rounding out the corners of the PCB and ran & fixed DRC.
 
-# 2025-08-21 Log 11: UART issue
+# 2025-08-21 Log 12: UART issue
 Time: 30min
 Found out that the for STM32 to flash over USB using a USB-UART converter, the pins PA9/PA10 must be used for UART. I was using a different set of pins, meaning that I would not be able to flash the STM32 via USB. I switched and rerouted the HEATER1-2 pins with the UART RX/TX pins. 
