@@ -1,4 +1,4 @@
-26439142525104875
+26442653792067469
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105609,7 +105609,21 @@ IC_W25Q16JVUXIQ_TR
 9
 9
 easyeda2kicad
+CONN-SMD_430450218
+
+
+0
+4
+4
+easyeda2kicad
 CONN-TH_2P-P9.50_DBT50G-9.5-2P
+
+
+0
+2
+2
+easyeda2kicad
+F1812
 
 
 0

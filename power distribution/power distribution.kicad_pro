@@ -524,7 +524,27 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "D_+": "rgb(0, 255, 0)",
+      "D_-": "rgb(0, 255, 0)",
+      "GND": "rgb(59, 55, 62)",
+      "HEATER0": "rgb(255, 153, 0)",
+      "HEATER1": "rgb(255, 153, 0)",
+      "HEATER2": "rgb(255, 153, 0)",
+      "HEATER3": "rgb(255, 153, 0)",
+      "HEATER4": "rgb(255, 153, 0)",
+      "HEATER5": "rgb(255, 153, 0)",
+      "HEATER6": "rgb(255, 153, 0)",
+      "HEATER7": "rgb(255, 153, 0)",
+      "TH0": "rgb(0, 255, 255)",
+      "TH1": "rgb(0, 255, 255)",
+      "TH2": "rgb(0, 255, 255)",
+      "TH3": "rgb(0, 255, 255)",
+      "TH4": "rgb(0, 255, 255)",
+      "TH5": "rgb(0, 255, 255)",
+      "TH6": "rgb(0, 255, 255)",
+      "TH7": "rgb(0, 255, 255)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
