@@ -61,7 +61,10 @@ Placed the MCU in the middle of the board, with the sensitive analog pins facing
 Time: 2h 
 Routed the thermistor sensing section on the PCB and replicated the layout for the other 7 channels. Then routed from the MCU to the channels. I've also placed the SWD connector for debugging and for flashing just in case the USB flashing fails. I've also added a test hook for oscilloscope ground for probing purpose. I've also added some M2 screw mount holes on the 4 corners of the PCB and silkscreen labels for the different inputs and LEDs. I finished by rounding out the corners of the PCB and ran & fixed DRC.
 ![image of the themistor sensing layout](https://github.com/Haxintosh/tiled-pcb-heater/blob/98d143a2d95fdf668801079218101a170dff6366/pics/therm_pcb.png)
+![image of the finished PCB](https://github.com/Haxintosh/tiled-pcb-heater/blob/cabced6e9d95e027c0f9c7038fd8d20f2d08e795/pics/pcb_view.png)
 
 # 2025-08-21 Log 12: UART issue
 Time: 30min
 Found out that the for STM32 to flash over USB using a USB-UART converter, the pins PA9/PA10 must be used for UART. I was using a different set of pins, meaning that I would not be able to flash the STM32 via USB. I switched and rerouted the HEATER1-2 pins with the UART RX/TX pins. 
+![image of the fixed PCB](https://github.com/Haxintosh/tiled-pcb-heater/blob/cabced6e9d95e027c0f9c7038fd8d20f2d08e795/pics/FIXED_view.png)
+![image of a 3D view of the PCB](https://github.com/Haxintosh/tiled-pcb-heater/blob/cabced6e9d95e027c0f9c7038fd8d20f2d08e795/pics/FIXED_3d.png)
