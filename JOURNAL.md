@@ -8,6 +8,7 @@ Created On: "7/8/2025"
 # 2025-08-07 Log 1: Initial planning & research
 Time: 30min
 Started the project and laid out the project's main criteria. The project is a Klipper compatible scalable and modular heated bed system. The tile nature of the beds allows the printer to selectively heat areas to reduce power consumption. The heated beds are made of individual tiles of PCB-based resistive heaters, which are connected to a power distribution board/hub. The hub, in turn, is connected to Klipper via UART over USB and is able to control 8 tiles of around 100W each. Each tile is connected through a connector for power and another one for thermistor (maybe add a connector on the tile for a thermistor to allow for a single cable from tile to hub? interference). To calculate the length and the width of the trace required for a given wattage, I've found and used the trace resistance formula and put it in a Desmos calculator (https://www.desmos.com/calculator/dyaic1mb9s). 
+![desmos image of trace width and height calculations](https://github.com/Haxintosh/tiled-pcb-heater/blob/db1faf27f93f53c38962efba4f0ba4f78a835df6/pics/desmos.png)
 
 # 2025-08-07 Log 2: Heated bed schematic
 Time: 30min
