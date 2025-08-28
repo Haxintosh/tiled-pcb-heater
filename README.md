@@ -1,5 +1,6 @@
 # Tiled 3D printing bed
 150mm x 150mm tiles for a heated bed. 
+![render of the power distribution PCB](https://github.com/Haxintosh/tiled-pcb-heater/blob/958d70e85ded5e5bcc465d8803a0e40bc7d69e6a/pics/power_distribution_render.png)
 ## Specs
 The calculator can found here: https://www.desmos.com/calculator/dyaic1mb9s  
 
