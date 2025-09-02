@@ -1,3 +1,4 @@
+![render of the power distribution PCB](https://github.com/Haxintosh/tiled-pcb-heater/blob/958d70e85ded5e5bcc465d8803a0e40bc7d69e6a/pics/power_distribution_render.png)
 # Tiled 3D printing bed
 This project is a scalable, Klipper-compatible heated bed system designed for efficiency and flexibility. The bed is built from PCB-based heater tiles (≈100W each) that can be individually powered, allowing selective heating to reduce energy use. A central hub board, driven by an STM32 microcontroller, controls up to multiple channels with individual MOSFET switching and thermistor sensing.  
 
@@ -5,8 +6,6 @@ The project consists of 2 types of PCBs, the tiles and the power distribution bo
 
 Currently there is a 150mm tile and a 8 channel power distribution board.  
 
-Render of the power distribution PCB:
-![render of the power distribution PCB](https://github.com/Haxintosh/tiled-pcb-heater/blob/958d70e85ded5e5bcc465d8803a0e40bc7d69e6a/pics/power_distribution_render.png)
 ## Specs
 The calculator can found here: https://www.desmos.com/calculator/dyaic1mb9s  
 
