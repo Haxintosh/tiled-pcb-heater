@@ -6,6 +6,14 @@ The project consists of 2 types of PCBs, the tiles and the power distribution bo
 
 Currently there is a 150mm tile and a 8 channel power distribution board.  
 
+## Images
+Heater tile:  
+![render of the tile](https://github.com/Haxintosh/tiled-pcb-heater/blob/edbf442a8475d1e3b1a987ebb1309200a97ae5be/pics/heater.png)  
+![image of the pcb](https://github.com/Haxintosh/tiled-pcb-heater/blob/edbf442a8475d1e3b1a987ebb1309200a97ae5be/pics/150mm_heater_pcb.png)  
+Power distribution board:  
+![render of the power distribution PCB](https://github.com/Haxintosh/tiled-pcb-heater/blob/958d70e85ded5e5bcc465d8803a0e40bc7d69e6a/pics/power_distribution_render.png)  
+![image of the pd pcb](https://github.com/Haxintosh/tiled-pcb-heater/blob/edbf442a8475d1e3b1a987ebb1309200a97ae5be/pics/FIXED_view.png)  
+
 ## Specs
 The calculator can found here: https://www.desmos.com/calculator/dyaic1mb9s  
 
